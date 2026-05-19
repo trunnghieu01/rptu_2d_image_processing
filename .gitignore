@@ -1,0 +1,80 @@
+# ==========================================
+# Conda / Virtual Environments
+# ==========================================
+# If you create your conda env locally inside the project folder (e.g., conda create -p ./env)
+.env/
+env/
+venv/
+ENV/
+.venv/
+
+# Conda environment history and explicit specification files (if generated inside the repo)
+conda-meta/
+*.mkl
+*.anaconda
+
+# ==========================================
+# Python Artifacts & Caching
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / Packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Jupyter Notebooks & Data Science
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Jupyter cache and profiles
+.jupyter_cache/
+.nbsite/
+
+# Data and Large Files (Best practice: keep raw data out of Git)
+data/raw/
+data/processed/
+*.csv
+*.h5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
